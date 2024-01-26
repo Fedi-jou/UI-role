@@ -1,0 +1,17 @@
+/* Styles for Logout button */
+.logout-button {
+    background-color: #9e9ea4; /* Navbar color */
+    margin-right: 15px;
+    color: #fff; /* Text color */
+    padding: 10px 15px; /* Adjust padding for your preferred size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    text-transform: uppercase;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff0000;; /* Darker color on hover */
+  }
+  
