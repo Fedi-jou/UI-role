@@ -16,9 +16,9 @@ const App = () => {
  
   useEffect(() => {
     if (user) {
-      if (user.roles.includes('admin')) {
+      if (user.roles.includes('admin' || 'Admin')) {
         navigate("/admin", { replace: true });
-      } else if (user.roles.includes('user')) {
+      } else if (user.roles.includes('user' || 'User')) {
         navigate("/user", { replace: true });
       }
     }

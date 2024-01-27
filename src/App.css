@@ -1,5 +1,4 @@
-
-body {
+body,html {
   margin: 0;
   padding: 0;
   background-color: #1d2634;
@@ -8,11 +7,12 @@ body {
 }
 .app-container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   justify-content: center;
   align-items: center;
 }
+
 .icon {
   vertical-align: middle;
   line-height: 1px;
@@ -110,7 +110,7 @@ body {
   grid-area: sidebar;
   height: 100%;
   background-color: #263043;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
@@ -170,7 +170,7 @@ body {
 /* Main  */  
 .main-container {
   grid-area: main;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   padding: 20px 20px;
   color: rgba(255, 255, 255, 0.95);
 }
