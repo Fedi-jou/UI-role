@@ -1,65 +1,74 @@
 /* Login.css */
+
 .paper-container {
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    height: 600px;
-    background-color: #ffffff; /* White background color */
-    border: 1px solid #e0e0e0; /* Light gray border color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-    padding: 20px; /* Add padding for content inside */
-    box-sizing: border-box; /* Include padding and border in the total width/height */
-  }
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff; /* White background color */
+  border: 1px solid #e0e0e0; /* Light gray border color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 20px; /* Add padding for content inside */
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+}
 
 .login-container {
-    flex: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0; /* Modern grey color */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Modern grey color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Change the color to your preference */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.login-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555; /* Change the color to your preference */
+}
+
+.login-input {
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 400px; /* Limit maximum width for larger screens */
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+  /* Hover effect */
+  &:hover {
+    background-color: #0056b3;
   }
-  
-  .login-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333; /* Change the color to your preference */
-    text-align: center; /* Center the text */
-    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 668px) {
+  .paper-container {
+    width: 90%; /* Adjusted width for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
   }
-  
-  .login-label {
-    font-size: 16px;
-    margin-bottom: 8px;
-    color: #555; /* Change the color to your preference */
-  }
-  
-  .login-input {
-    width: 70%;
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc; /* Border color */
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-  
-  .login-button {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 17px;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-  
-    /* Hover effect */
-    &:hover {
-      background-color: #0056b3;
-    }
-  }
-  
+}

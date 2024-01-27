@@ -15,3 +15,8 @@
     background-color: #ff0000;; /* Darker color on hover */
   }
   
+  @media screen and (max-width: 992px) {
+    .logout-button {
+      padding: 8px 12px; /* Decrease padding for smaller screens */
+    }
+  }
