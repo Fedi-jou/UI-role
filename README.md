@@ -13,7 +13,7 @@ This project is a prototype of a React.js application that showcases role-based 
 *It implements a simple role-based access control system to manage user permissions and access to specific features.*
 
 ## Usage
-*** [Deployed page for test visit , click here to check LIVE ](https://ui-role1.netlify.app/) ***
+*** [Deployed page for test visit , click here to check LIVE ](https://ui-role.netlify.app/) ***
 
 1. **Admin Dashboard:**
    - Log in with the username "**admin**".
@@ -28,7 +28,7 @@ This project is a prototype of a React.js application that showcases role-based 
 3. **Logout:**
    - Log out to return to the login screen.
 
-##*** [click here to check Deployed page for test , visit the LIVE version ](https://ui-role1.netlify.app/) ***
+##*** [click here to check Deployed page for test , visit the LIVE version ](https://ui-role.netlify.app/) ***
 
 
 ## Features
